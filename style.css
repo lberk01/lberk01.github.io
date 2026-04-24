@@ -1,0 +1,13 @@
+body {
+    background-color: #0e774d;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 10em;
+    margin-top: 100px;
+    font-family: "sloop-script-one", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
