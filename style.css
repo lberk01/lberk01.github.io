@@ -39,7 +39,7 @@ img {
     align-items: center;
 }
 
-.video-section {
+div.video-section {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -47,12 +47,12 @@ img {
     background-color: rgb(7, 77, 36);
 }
 
-.video-text {
+div.video-text {
     flex: 1;
     color: #fff;
 }
 
-.video-section video {
+div.video-section video {
     width: 30%;   
     flex-shrink: 0;
 }
