@@ -1,5 +1,5 @@
 body {
-    background-color: #0e774d;
+    background-color: rgb(7, 77, 36);
 }
 
 h1 {
@@ -10,4 +10,49 @@ h1 {
     font-family: "sloop-script-one", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 10em;
+    margin-top: 10px;
+    font-family: "rival-sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 0;
+}
+
+
+div.box {
+    display: flex;
+    height: 100vh;
+    background-image: url('Background1.jpeg');
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+}
+
+.video-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+    background-color: rgb(7, 77, 36);
+}
+
+.video-text {
+    flex: 1;
+    color: #fff;
+}
+
+.video-section video {
+    width: 30%;   
+    flex-shrink: 0;
 }
