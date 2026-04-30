@@ -1,58 +1,130 @@
+/* Colour reference:
+   #f0ede3  = cream (light background)
+   #e2ddd0  = cream dark
+   #d8d5ce  = grey light
+   #c8c5bc  = grey mid
+   #2c3d1e  = dark green (darkest)
+   #3a5228  = dark green
+   #4a6932  = mid green
+   #8fa832  = gold / olive (accent colour)
+   #ffffff  = white
+*/
+ 
+ 
+/* --------------------------------
+   BASE
+-------------------------------- */
+ 
 body {
-    background-color: rgb(7, 77, 36);
+    margin: 0;
+    padding: 0;
+    font-family: "rival-sans", sans-serif;
+    background-color: #f0ede3;
+    color: #2c3d1e;
+    overflow-x: hidden;
 }
-
-h1 {
-    color: #fff;
+ 
+img {
+    display: block;
+    width: 100%;
+}
+ 
+ 
+/* --------------------------------
+   SECTION 1: HERO
+-------------------------------- */
+ 
+div.hero {
+    height: 100vh;
+    background-image: url('Background1.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 30, 10, 0.5);
+}
+ 
+div.hero h1 {
+    color: #ffffff;
     text-align: center;
     font-size: 10em;
-    margin-top: 100px;
     font-family: "sloop-script-one", sans-serif;
     font-weight: 700;
     font-style: normal;
     margin-bottom: 0;
+    line-height: 0.9;
 }
-
-h2 {
-    color: #fff;
+ 
+div.hero h2 {
+    color: #ffffff;
     text-align: center;
-    font-size: 10em;
+    font-size: 5em;
+    font-family: "rival-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
     margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+ 
+ 
+/* --------------------------------
+   SECTION 2: GIVE HALF BACK
+-------------------------------- */
+ 
+div.give-half {
+    display: flex;
+    background-color: #f0ede3;
+    min-height: 75vh;
+}
+ 
+div.give-half-text {
+    flex: 1;
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+div.give-half-text h3 {
+    font-family: "sloop-script-one", sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+    color: #3a5228;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+ 
+p.bold-quote {
     font-family: "rival-sans", sans-serif;
     font-weight: 800;
-    font-style: normal;
-    margin-top: 0;
+    font-size: 1.4em;
+    color: #2c3d1e;
+    line-height: 1.55;
+    max-width: 480px;
 }
-
-
-div.box {
-    display: flex;
-    height: 100vh;
-    background-image: url('Background1.jpeg');
+ 
+p.attribution {
+    margin-top: 40px;
+    font-family: "rival-sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #4a6932;
+    text-align: center;
 }
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    align-items: center;
-}
-
-div.video-section {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    padding: 60px;
-    background-color: rgb(7, 77, 36);
-}
-
-div.video-text {
+ 
+div.give-half-image {
     flex: 1;
-    color: #fff;
+    overflow: hidden;
 }
-
-div.video-section video {
-    width: 30%;   
-    flex-shrink: 0;
+ 
+div.give-half-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(0.3) contrast(1.1);
 }
+ 
+ 
