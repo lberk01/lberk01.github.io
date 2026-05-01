@@ -11,17 +11,12 @@
 */
  
  
-/* --------------------------------
-   BASE
--------------------------------- */
+/* BASE */
  
 body {
     margin: 0;
     padding: 0;
-    font-family: "rival-sans", sans-serif;
     background-color: #f0ede3;
-    color: #2c3d1e;
-    overflow-x: hidden;
 }
  
 img {
@@ -30,9 +25,7 @@ img {
 }
  
  
-/* --------------------------------
-   SECTION 1: HERO
--------------------------------- */
+/* SECTION 1: HERO */
  
 div.hero {
     height: 100vh;
@@ -43,7 +36,6 @@ div.hero {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(20, 30, 10, 0.5);
 }
  
 div.hero h1 {
@@ -52,7 +44,6 @@ div.hero h1 {
     font-size: 10em;
     font-family: "sloop-script-one", sans-serif;
     font-weight: 700;
-    font-style: normal;
     margin-bottom: 0;
     line-height: 0.9;
 }
@@ -63,16 +54,13 @@ div.hero h2 {
     font-size: 5em;
     font-family: "rival-sans", sans-serif;
     font-weight: 900;
-    font-style: normal;
     margin-top: 10px;
     text-transform: uppercase;
     letter-spacing: 0.04em;
 }
  
  
-/* --------------------------------
-   SECTION 2: GIVE HALF BACK
--------------------------------- */
+/* SECTION 2: GIVE HALF BACK */
  
 div.give-half {
     display: flex;
@@ -93,7 +81,6 @@ div.give-half-text h3 {
     font-weight: 700;
     font-size: 5em;
     color: #3a5228;
-    line-height: 1.1;
     margin-bottom: 30px;
 }
  
@@ -102,7 +89,6 @@ p.bold-quote {
     font-weight: 800;
     font-size: 1.4em;
     color: #2c3d1e;
-    line-height: 1.55;
     max-width: 480px;
 }
  
@@ -117,7 +103,6 @@ p.attribution {
  
 div.give-half-image {
     flex: 1;
-    overflow: hidden;
 }
  
 div.give-half-image img {
