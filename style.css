@@ -442,7 +442,70 @@ div.hover-images img:hover {
     filter: saturate(1);
 }
 
+/* 
+   PAGE 5: FIGHT FOR LIFE
+ */
+div.fight-section {
+    background-color: #3a5228;
+}
 
+/* 
+PAGE 6: RUIN AND REWILD 
+*/
+
+div.ruin-rewild {
+    background-color: #d8d5ce;
+    padding: 60px 80px;
+}
+
+/* Outer flex row — holds the two wrapped columns side by side */
+div.ruin-rewild-images {
+    display: flex;
+    gap: 16px;
+}
+
+/* Each wrap is a column: image on top, caption underneath */
+div.ruin-wrap,
+div.rewild-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* The image div fills the height */
+div.ruin-image,
+div.rewild-image {
+    position: relative;
+    overflow: hidden;
+    height: 65vh;
+}
+
+div.ruin-image img,
+div.rewild-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Script label overlaid on top of the image */
+p.image-label {
+    position: absolute;
+    bottom: 40px;
+    right: 24px;
+    font-family: "sloop-script-one", sans-serif;
+    font-size: 2.5em;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Caption sits underneath the image, in green */
+p.image-sublabel {
+    font-family: "rival-sans", sans-serif;
+    font-size: 0.65em;
+    letter-spacing: 0.08em;
+    color: #4a6932;
+    margin: 10px 0 0 0;
+}
 
 /* 
    FOOTER / COLOPHON
